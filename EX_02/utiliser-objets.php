@@ -9,7 +9,7 @@ $interval = $date2->diff($date1);
 echo $interval->format('%R%a days');
 
 $interval = $date2->diff($date1);
-echo '<p>'.$interval->format('%a days');
-echo $interval->format('%H hours');
-echo $interval->format('%i minutes').'</p>';
+echo '<p>'.$interval->format('  %a days');
+echo $interval->format('  %H hours');
+echo $interval->format('  %i minutes').'</p>';
 ?>
